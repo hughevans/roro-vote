@@ -1,0 +1,31 @@
+- error_messages_for :vote
+
+#top_box
+
+  %p= @topic.description
+  
+  - form_for :vote, :url => vote_topic_path(@topic) do |f|
+    Make a Selection:
+    %ul
+      - for choice in @topic.choices
+
+        %li
+          = f.radio_button :choice_id, choice.id
+          = f.label "choice_id_#{choice.id}", choice.name
+          
+    %p.buttons
+      = f.label :irc_nick, 'IRC Nick'
+      = f.text_field :irc_nick, :size => 20
+      = f.submit 'Vote!'
+
+#results
+  = open_flash_chart_object('98%',250, "/topics/#{@topic.id}.results", false, '/')           
+  
+#activity
+  
+  %img.header{:src => '/images/activity.png', :alt => 'Activity', :width => '165', :height => '35'}/
+  
+  #live_table
+    = render :partial => 'votes'
+
+= render :partial => 'topics'

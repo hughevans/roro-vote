@@ -1,0 +1,7 @@
+#topics
+
+  %img.header{:src => '/images/topics.png', :alt => 'Topics', :width => '165', :height => '35'}/
+  
+  %ul
+    - for topic in @topics
+      %li= link_to_unless_current topic.name, topic_path(topic)

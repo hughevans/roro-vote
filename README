@@ -1,0 +1,7 @@
+= Vote by Hugh Evans - hughevans.net
+
+A generic voting app that hooks into faces.rubyonrails.com.au so members can vote with their IRC Nicks.
+
+== License
+
+Vote is released under the MIT license.

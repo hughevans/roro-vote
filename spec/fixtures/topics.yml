@@ -1,0 +1,14 @@
+topic_one:
+  name: Topic One
+  description: About topic one
+  enabled: true
+  
+topic_two:
+  name: Topic Two
+  description: About topic two
+  enabled: true
+  
+topic_three:
+  name: Topic Three
+  description: About topic three
+  enabled: false

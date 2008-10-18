@@ -1,0 +1,46 @@
+topic_one_vote_one:
+  user_id: 1
+  topic: topic_one
+  choice: topic_one_choice_three
+topic_one_vote_two:
+  user_id: 2
+  topic: topic_one
+  choice: topic_one_choice_one
+topic_one_vote_three:
+  user_id: 3
+  topic: topic_one
+  choice: topic_one_choice_three
+  
+topic_two_vote_one:
+  user_id: 1
+  topic: topic_two
+  choice: topic_two_choice_one
+topic_two_vote_two:
+  user_id: 2
+  topic: topic_two
+  choice: topic_two_choice_two
+topic_two_vote_three:
+  user_id: 3
+  topic: topic_two
+  choice: topic_two_choice_two
+topic_two_vote_four:
+  user_id: 4
+  topic: topic_two
+  choice: topic_two_choice_one
+  
+topic_three_vote_one:
+  user_id: 1
+  topic: topic_three
+  choice: topic_three_choice_two
+topic_three_vote_two:
+  user_id: 2
+  topic: topic_three
+  choice: topic_three_choice_two
+topic_three_vote_three:
+  user_id: 3
+  topic: topic_three
+  choice: topic_three_choice_two
+topic_three_vote_four:
+  user_id: 4
+  topic: topic_three
+  choice: topic_three_choice_one

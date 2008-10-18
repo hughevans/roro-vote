@@ -1,0 +1,23 @@
+topic_one_choice_one:
+  name: Choice One
+  topic: topic_one
+topic_one_choice_two:
+  name: Choice Two
+  topic: topic_one
+topic_one_choice_three:
+  name: Choice Three
+  topic: topic_one
+
+topic_two_choice_one:
+  name: Choice One
+  topic: topic_two
+topic_two_choice_two:
+  name: Choice Two
+  topic: topic_two
+  
+topic_three_choice_one:
+  name: Choice One
+  topic: topic_three
+topic_three_choice_two:
+  name: Choice Two
+  topic: topic_three

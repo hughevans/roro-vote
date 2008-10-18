@@ -1,0 +1,9 @@
+%table.log
+  - for vote in @votes
+    %tr{:class => cycle('odd', 'even')}
+      %td.face
+        = vote_face(vote)
+      %td
+        = vote_description(vote)
+        
+= will_paginate @votes
